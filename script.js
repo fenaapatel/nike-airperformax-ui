@@ -1,6 +1,3 @@
-//timeline()--- series of animation i.e each animation starts only after the previous onee finishes. when you need different animations for different elements
-//stagger--- is used to animate multiple elemnts witha adelay between each. when you need same animation on multiple elements
-
 var tl = gsap.timeline();
 
 gsap.set(".a", {opacity: 0, y: 10})
